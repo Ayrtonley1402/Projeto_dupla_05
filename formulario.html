@@ -14,21 +14,24 @@
         <input type="text" list="produtos">
           <datalist id="produtos">
           
-             <option value="Camisa Mas">&dollar;45,00</option>
-             <option value="Camisa Fem">&dollar;40,00</option>
-             <option value="Shorts Mas">&dollar;32,00</option>
-             <option value="Shorts Fem">&dollar;30,00</option>
+             <option value="Camisa esportiva">&dollar;45,00</option>
+             <option value="Shorts moletom">&dollar;38,00</option>
+             <option value="Shorts pano sintético">&dollar;35,00</option>
              <option value="Regata">&dollar;28,00</option>
              <option value="Top">&dollar;25,50</option>
              <option value="Blusa compressão">&dollar;39,99</option>
              <option value="Shorts compressão">&dollar;39,99</option>
              <option value="Meia">&dollar;6,60</option>
              <option value="Munhequeira">&dollar;6,00</option>
-             <option value="Calça Masculina">&dollar;105,60</option>
-             <option value="Calça legging Feminina">&dollar;97,00</option>
+             <option value="Calça esportiva">&dollar;105,60</option>
              <option value="Strap">&dollar;12,00</option>
              <option value="Colete com capuz">&dollar;70,80</option>
           </datalist>  <br><hr>
+
+          <input type="radio" name="mas">
+          <label>Masculino</label>
+          <input type="radio" name="mas">
+          <label>Feminino</label><br><hr>
           
           <label><strong>Quantidade:</strong></label>
             <input type="number"><br><hr>
@@ -47,31 +50,171 @@
           <input type="checkbox">
           <label>Cinza</label>
           <input type="checkbox">
-          <label>Creme</label><br><hr>
+          <label>Creme</label>
+          <input type="checkbox">
+          <label>Branco</label><hr>
 
           <p>
             * As cores serâo distribuidas igualmente para o numero de itens escolhidos *
           </p>
-        </fieldset><br><br>
+        </fieldset><br><br><br>
 
+
+
+        <fieldset>
         <h1><strong>Tênis masculinos:</strong></h1>
 
-        <label><strong>Modelos:</strong></label>
-        <input type="text" list="tenis">
+          <label><strong>Modelos:</strong></label>
+          <input type="text" list="tenis">
+
         <datalist id="tenis">
-          <option value="Nike Impaction 4"></option>
-          <option value="Nike Revolution"></option>
-          <option value="Nike Downshifter 12"></option>
-          <option value="Nike Dinamition"></option>
-          <option value="Adidas swift run 22"></option>
-          <option value="Adidas Duramo SI"></option>
-          <option value="Adidas Galaxy 6"></option>
-          <option value="Adidas Nebzed Cloudfoarm"></option>
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-        </datalist>
+          <option value="Nike Impaction 4">&dollar;309,90</option>
+          <option value="Nike Revolution">&dollar;290,89</option>
+          <option value="Nike Downshifter 12">&dollar;205,99</option>
+          <option value="Nike Dinamition">&dollar;309,99</option>
+          <option value="Adidas swift run 22">&dollar;271,90</option>
+          <option value="Adidas Duramo SI">&dollar;208,79</option>
+          <option value="Adidas Galaxy 6">&dollar;406,69</option>
+          <option value="Adidas Nebzed Cloudfoarm">&dollar;305,79</option>
+          <option value="Adidas Fast Pro ultra">&dollar;189,90</option>
+          <option value="Puma Viz runner V2">&dollar;279,90</option>
+          <option value="Puma Flyer flex">&dollar;265,78</option>
+          <option value="Puma X-Ray 2 squar">&dollar;368,89</option>
+          <option value="Puma Prowl Slip-on">&dollar;259,99</option>
+        </datalist><br><hr>
+
+
+        <label><strong>Quantidade:</strong></label>
+            <input type="number"><br><hr>
+
+          <label><strong>Cores:</strong></label>
+          <input type="checkbox">
+          <label>Preto</label>
+          <input type="checkbox">
+          <label>Azul escuro</label><label ></label>
+          <input type="checkbox">
+          <label>Marrom</label>
+          <input type="checkbox">
+          <label>Vinho</label>
+          <input type="checkbox">
+          <label>Vermelho</label>
+          <input type="checkbox">
+          <label>Branco</label>
+          <input type="checkbox">
+          <label>Creme</label><br><hr>
+
+          <label><strong>Tamanho:</strong></label>
+
+          <input type="radio" name="tamanho">
+          <label>34</label>
+          <input type="radio" name="tamanho">
+          <label>35</label>
+          <input type="radio" name="tamanho">
+          <label>36</label>
+          <input type="radio" name="tamanho">
+          <label>37</label><br>
+          <input type="radio" name="tamanho">
+          <label>38</label>
+          <input type="radio" name="tamanho">
+          <label>39</label>
+          <input type="radio" name="tamanho">
+          <label>40</label>
+          <input type="radio" name="tamanho">
+          <label>41</label>
+          <input type="radio" name="tamanho">
+          <label>42</label>
+          <input type="radio" name="tamanho">
+          <label>43</label>
+
+          <p>
+            * As cores serão distribuidas igualmente para o número de tênis escolhidos *
+          </p>
+        </fieldset><br><br><br>
+
+
+     <fieldset>
+        <h1><strong>Tênis femininos:</strong></h1>
+
+        <label><strong>Modelos:</strong></label>
+        <input type="text" list="tenis femininos">
+
+        <datalist id="tenis femininos">
+          <option value="Nike Revolution 6">&dollar;269,99</option>
+          <option value="Nike Downshifter 12">&dollar;246,89</option>
+          <option value="Nike revolution 7">&dollar;256,49</option>
+          <option value="Mizuno Cool Ride">&dollar;209,99</option>
+          <option value="Fila Street fit">&dollar;231,90</option>
+          <option value="Adidas Lite Racer">&dollar;188,79</option>
+          <option value="Adidas Duramo RC">&dollar;198,69</option>
+          <option value="Run confort ortopédico">&dollar;110,79</option>
+          <option value="Puma Wired Run">&dollar;187,59</option>
+          <option value="Olimpikus Jogging">&dollar;161,90</option>
+          
+        </datalist><br><hr>
+
+        <label><strong>Quantidade:</strong></label>
+        <input type="number"><br><hr>
+
+          <label><strong>Cores:</strong></label>
+          <input type="checkbox">
+          <label>Preto</label>
+          <input type="checkbox">
+          <label>Azul escuro</label><label ></label>
+          <input type="checkbox">
+          <label>Marrom</label>
+          <input type="checkbox">
+          <label>Vinho</label>
+          <input type="checkbox">
+          <label>Vermelho</label>
+          <input type="checkbox">
+          <label>Branco</label>
+          <input type="checkbox">
+          <label>Creme</label><br><hr>
+
+          <label><strong>Tamanho:</strong></label>
+
+            <input type="radio" name="tamanho">
+            <label>34</label>
+            <input type="radio" name="tamanho">
+            <label>35</label>
+            <input type="radio" name="tamanho">
+            <label>36</label><br>
+            <input type="radio" name="tamanho">
+            <label>37</label>
+            <input type="radio" name="tamanho">
+            <label>38</label>
+            <input type="radio" name="tamanho">
+            <label>39</label>
+            <input type="radio" name="tamanho">
+            <label>40</label>
+            <input type="radio" name="tamanho">
+            <label>41</label>
+          
+          <p>
+            * As cores serão distribuidas igualmente para o número de tênis escolhidos *
+          </p>
+       </fieldset><br><br><br>
+     
+         <h1>Finalize a compra</h1>
+
+          <label><strong>Endereço:</strong></label>
+          <input type="text"><br><hr>
+          <label><strong>CEP:</strong></label>
+          <input type="text"><br><hr>
+          <label><strong>E-mail:</strong></label>
+          <input type="email"><br><hr>
+          <label><strong>Forma de pagamento:</strong></label>
+          <input type="radio" name="pg">
+          <label>Cartão de crédito</label>
+          <input type="radio" name="pg">
+          <label>Débito</label>
+          <input type="radio" name="pg">
+          <label>Pix</label>
+
+          
+
+
+
 
       </form>
     
