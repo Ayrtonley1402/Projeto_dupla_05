@@ -1,0 +1,40 @@
+.Corfundo{
+    background-color: black;
+    color: white;
+    margin: 10px 0 15px 0;
+    padding: 15px;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2px;
+}
+
+#azul{
+    background-color: darkblue;
+    color: white;
+    margin: 10px 0 15px 0;
+    padding: 15px ;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2px;
+}
+
+#Rosa{
+    background-color:palevioletred;
+    color: white;
+    margin: 10px 0 15px 0;
+    padding: 15px ;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2px;
+}
+
+.white{
+    background-color:azure;
+}
+
+body{
+    background-image: url(./academia.foto.jpg);
+    background-repeat: repeat (5);
+    background-size: 100%;
+    height: 100%;
+}
